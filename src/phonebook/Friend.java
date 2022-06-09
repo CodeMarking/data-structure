@@ -5,6 +5,7 @@ import java.util.Comparator;
 
 /**
  * 电话簿对象（实现可比较，比较器和序列化接口）
+ * @author make
  */
 public class Friend implements Comparable<Friend>, Comparator<Friend>,	Serializable {
 
