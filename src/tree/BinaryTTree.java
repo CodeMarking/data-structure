@@ -1,5 +1,7 @@
 package tree;
 
+import java.util.List;
+
 /**
  * 二叉树接口，二叉树抽象数据类型
  */
@@ -30,4 +32,6 @@ public interface BinaryTTree<T> {
 	void removeChild(BinaryNode<T> p, boolean leftChild);// 删除p节点的左或右子树
 
 	void removeAll();// 删除二叉树
+
+	List<Integer> preOrderTraversal(BinaryTreeIntData root);
 }
