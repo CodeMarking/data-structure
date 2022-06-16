@@ -39,6 +39,7 @@ public class IsLand {
      * @param visited
      */
     public void bfs(char[][] grid, int i, int j, boolean[][] visited) {
+        //设置上下左右的移动。
         int[] kx = {1, -1, 0, 0};
         int[] ky = {0, 0, 1, -1};
         visited[i][j] = true;
