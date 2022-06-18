@@ -28,7 +28,7 @@ public class Sort {
                 array[left] = array[right];
                 array[right] = temp;
                 left++;
-                right++;
+                right--;
             }
 
         }
